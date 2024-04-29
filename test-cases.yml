@@ -51,7 +51,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - Нажимаем кнопку "Category"
     - В выпадающем списке выбираем категорию "smartphones"
@@ -65,7 +65,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - в поле "Searsh" пишем "opp"
   expected-result: |
@@ -78,7 +78,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на товар "iPhone 9"
   expected-result: |
@@ -91,7 +91,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на кнопку "Add to cart" товара "iPhone Х"
     - нажимаем на кнопку "Cart"
@@ -105,7 +105,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - вводим в поле "From" значение "0"
     - вводим в поле "To" значение "15"
@@ -120,7 +120,7 @@
   prerequisites: |
     Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    Магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - Нажимаем чек-бокс "In stock"
   expected-result: | 
@@ -134,7 +134,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем чек-бокс "Apple"  
     - нажимаем чек-бокс "Samsung"
@@ -148,7 +148,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на кнопку "Add to cart" товара "iPhone 9"
   expected-result: |
@@ -161,7 +161,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на товар "OPPO F19"
   expected-result: |
@@ -174,7 +174,7 @@
   prerequisites: |
    Открыта страница магазина со списком товаров https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - проверяем наличие информации о товаре "iPhone X": название, рейтинг, цена со скидкой и без нее
   expected-result: |
@@ -188,7 +188,7 @@
    В корзину добавлен товар "iPhone X"
    Открыта страница магазина https://hexlet-products-store.vercel.app/cart
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на кнопку "Delete" товара "iPhone Х"
   expected-result: |
@@ -202,7 +202,7 @@
     Открыта страница Корзины
     https://hexlet-products-store.vercel.app/cart В корзине есть товары.
   test-data:
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - Нажимаем кнопку «Clear cart»
   expected-result:  |
@@ -217,7 +217,7 @@
    В корзину добавлен товар "iPhone X"
    Открыта страница магазина https://hexlet-products-store.vercel.app/cart
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на кнопку "Store" в правом верхнем углу
   expected-result: |
@@ -231,7 +231,7 @@
    В корзину добавлен товар "iPhone 9"
    Открыта страница магазина https://hexlet-products-store.vercel.app/cart
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на кнопку "Checkout" 
   expected-result: |
@@ -246,7 +246,7 @@
    В корзину добавлен товар "iPhone Х"
    Открыта страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на кнопку "Next" 
     - нажимаем на кнопку "Cart" 
@@ -260,7 +260,7 @@
   prerequisites: |
    Открыта страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    no date
   steps:
     - нажимаем на кнопку "F12" 
     - нажимаем "Ctrl+Shift+M"
@@ -269,17 +269,37 @@
     Верстка сайта не плывет, все основные разделы меню и кнопки доступны пользователю
 
 - summary: |
+    Проверка магазина как SPA-приложение
+  requirement: |
+    Магазин должен работать без перезагрузки страницы
+  prerequisites: |
+    Открыта страница со списком товаров https://hexlet-products-store.vercel.app/
+  test-data: |
+    no date
+  steps:
+    - нажимаем на кнопку "Next"
+    - нажимаем на кнопку "Previous"
+  expected-result: |
+    Страницы должны перелистываться не перезагружая страницу 
+
+- summary: |
     Проверка доступности сайта в основных браузерах
   requirement: |
     Сайт должен корректно отображаться в трех основных браузерах "Mozilla", "Google Chrome", "Safari"
   prerequisites: |
    Открыты браузеры "Mozilla", v115.10.0esr "(64-разрядный)", "Google Chrome" v 109.0.5414.168, "Safari" v5.1.7 на  странице магазина https://hexlet-products-store.vercel.app/
   test-data: |
-    магазин https://hexlet-products-store.vercel.app/
+    Windows 10 pro (64-bit)
   steps:
     - проверяем визуально в браузере "Mozilla" 
+    - проверяем визуально в браузере "Google Chrome" 
+    - проверяем визуально в браузере "Safari" 
   expected-result: |
-    Верстка сайта не плывет, все основные разделы меню и кнопки доступны пользователю
+    Корректная работа сайта на данных версиях браузеров
+
+
+
+
 
 
 

@@ -296,3 +296,15 @@
     Карточки товара имеют от двух изображений
   actual-result: |
     Некоторые карточки товара имеют одно изображение 
+
+- summary: |
+    На стартовой странице "лишняя" кнопка "Previous" 
+  environment: |
+    Google Chrome   109.0.5414.168 (Официальная сборка) (64 бит)
+    ОС Windows 8 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Отстутствуют нефункциональные кнопки
+  actual-result: |
+    кнопка "Previous" никуда не перенаправляет

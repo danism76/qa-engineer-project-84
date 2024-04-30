@@ -81,11 +81,11 @@
 
 - summary: |
     Проверка доступности сайта в основных браузерах
-  status: pass
+  status: fail
 
 - summary: |
     Проверка безопасности сайта
-  status: pass
+  status: fail
 
 - summary: |
     Переключение языка сайта на русский

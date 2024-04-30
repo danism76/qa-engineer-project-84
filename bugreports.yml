@@ -122,8 +122,8 @@
 - summary: |
     Невозможно сбросить выбранную категорию без перезагрузки страницы
   environment: |
-    Google Chrome  123.0.6312.120 (64 бит)
-    Windows 11 pro
+    Google Chrome   109.0.5414.168 (Официальная сборка) (64 бит)
+    ОС Windows 8 (Официальная сборка) (64 бит)
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
     2. Выбрать в выпадающем меню категорию товаров

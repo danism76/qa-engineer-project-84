@@ -360,7 +360,7 @@
   requirement: |
     При добавлении нескольких разных товаров в корзину, должна отображаться общая сумма заказа
   prerequisites: |
-  Открыта  https://hexlet-products-store.vercel.app/
+    Открыта  https://hexlet-products-store.vercel.app/
   test-data: |
     no date
   steps:

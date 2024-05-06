@@ -86,10 +86,6 @@ test-cases:
   status: pass
 
 - summary: |
-    Проверка конвертации валюты
-  status: fail
-
-- summary: |
     Проверка доступности выбора количества покупаемого товара
   status: fail
 

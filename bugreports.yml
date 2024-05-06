@@ -32,7 +32,7 @@
     Google Chrome   109.0.5414.168 (Официальная сборка) (64 бит)
     ОС Windows 8 (Официальная сборка) (64 бит)
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/products/1#
     2. Кликаем на ссылку категории данного товара
   expected-result: |
     Ссылка кликабельна, сайт открывает фильтр по выбранной категории

@@ -79,6 +79,33 @@
   actual-result: |
     Не переведены на русский язык описания товаров, скриншот norussian.jpg прилагается
 
+    - summary: |
+    Кнопка бренда магазина "Hexlet Store" не перенаправляет на главную страницу
+  environment: |
+    Google Chrome  109.0.5414.168 (Официальная сборка) (64 бит)
+    ОС Windows 8 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Нажать "Hexlet Store"
+  expected-result: |
+    Сайт перешел на главную страницу
+  actual-result: |
+    Сайт не реагирует на кнопку "Hexlet Store", скриншот nohexlet.jpg прилагается
+
+- summary: |
+    При нажатии на кнопку "Магазин" сайт не переходит на главную страницу
+  environment: |
+    Google Chrome  109.0.5414.168 (Официальная сборка) (64 бит)
+    ОС Windows 8 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Нажать "Следующая"
+    3. Нажать "Магазин"
+  expected-result: |
+    Сайт перешел на главную страницу
+  actual-result: |
+    Ничего не происходит, скриншот nostore.jpg прилагается
+
 - summary: |
     Допускается введение некорректных (отрицательных) числовых значений в поле цены 
   environment: |
@@ -117,33 +144,6 @@
     Картинки флагов языков соответствуют наименованиям
   actual-result: |
     Отсутствует картинка флага английского языка, скриншот noflag.jpg прилагается
-
-- summary: |
-    Кнопка бренда магазина "Hexlet Store" не перенаправляет на главную страницу
-  environment: |
-    Google Chrome  109.0.5414.168 (Официальная сборка) (64 бит)
-    ОС Windows 8 (Официальная сборка) (64 бит)
-  steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Нажать "Hexlet Store"
-  expected-result: |
-    Сайт перешел на главную страницу
-  actual-result: |
-    Сайт не реагирует на кнопку "Hexlet Store", скриншот nohexlet.jpg прилагается
-
-- summary: |
-    При нажатии на кнопку "Магазин" сайт не переходит на главную страницу
-  environment: |
-    Google Chrome  109.0.5414.168 (Официальная сборка) (64 бит)
-    ОС Windows 8 (Официальная сборка) (64 бит)
-  steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Нажать "Следующая"
-    3. Нажать "Магазин"
-  expected-result: |
-    Сайт перешел на главную страницу
-  actual-result: |
-    Ничего не происходит, скриншот nostore.jpg прилагается
 
 - summary: |
     Изображения в карточке товара не выбираются при клике на них
